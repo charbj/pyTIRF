@@ -1,0 +1,1 @@
+for i in run*; do cd $i; for j in pos*; do cd $j; mkdir ch0 ch1 ch0_locs ch1_locs other; mv *colour0*.tif ch0; mv *colour1*.tif ch1/; mv *colour1*.tiff ch1_locs; mv *colour0*.tiff ch0_locs; mv *.nim *.nimb *.locb other/; cd ../; done; cd ..; done
